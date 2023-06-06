@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bee.png) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #ffc62ac0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin-top: 15px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    color: #fff;
+    background-color: #444444d2;
+    font-size: 50px;
+}
+
+.logo{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    background: rgba(133, 133, 122, 0.527);
+    margin: auto;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #FFC62A;
+}
+
+.sign{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.day{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #444444;
+    font-family:  Arial, sans-serif;
+    font-size: 32px;
+}
+
+.footer{
+    width: 100%;
+    height:50px;
+    background: #000;
+    color: #fff;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.hello{
+    background-color: #444444af;
+}
+
+.hello h3{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hello h3::after{
+    content: "Welcome to Spelling Bee Website";
+    animation: anim 10s linear infinite;
+}
+
+@keyframes anim {
+    10%{
+        color: #FFC62A;
+        content: "I'm Students of President University";
+    }
+}
+
+.group{
+    padding: 15px;
+}

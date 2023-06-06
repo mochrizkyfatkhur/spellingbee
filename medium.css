@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bee.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.navbar{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 95%;
+    height: 70px;
+    background: rgba(124, 124, 114, 0.445);
+    
+
+}
+
+ol{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ol li {
+    margin-top: 10px;
+    list-style: none;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+ol li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ol li a:hover {
+    color: lightsalmon;
+}
+
+
+.container-fluid{
+    margin-left: 40px;
+    background-color: rgba(179, 179, 60, 0.699);
+    width: 95%;
+    height: auto;
+
+
+}
+
+#intro.container-fluid{
+    margin-left: 40px;
+    margin: 10px;
+    background-color: rgba(141, 141, 88, 0.452);
+    width: 95%;
+}
+
+.container{
+    width: 100%;
+    float: left;
+    margin-left: 0%;
+    font-weight: bold;
+}
+
+.btnn{
+    margin: 10px;
+    background: white;
+}
+
+.text{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.demo{
+    font-style: italic;
+    color: black;
+    margin: 15px;
+}
+
+.hint{
+    background: #007bff;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border: #fff;
+}
+
+.footer{
+    width: 100%;
+    height: 35px;
+    background: rgba(124, 124, 114, 0.445);
+
+}
+
+.hello{
+    background-color: #444444af;
+    width: 95%;
+    margin-left: 40px;
+}
+
+.hello h3{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hello h3::after{
+    content: "Welcome to Our Website";
+    animation: anim 10s linear infinite;
+}
+
+@keyframes anim {
+    10%{
+        color: #FFC62A;
+        content: "We are Students of President University";
+    }
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="medium.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="logo">
+  <img src="head.png" width="95%" height="250px">
+</div>
+<div class="navbar">
+  <ol>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="">About Us</a></li>
+    <li><a href="Login.html">Log In</a></li>
+  </ol>
+</div>
+
+<div class="hello">
+  <h3>Hi </h3>
+</div>
+
+<div class="container-fluid">
+<br><br><br><br>
+
+<div id="score">
+</div>
+    <!-- choose word -->
+    <div class="row">
+      <div class="col" >
+        <div class="container-fluid" id="intro" style="padding-left:20%" >
+          <div class="container" >
+           
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e1">
+              <label class="form-check-label" for="e1">Word 1</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e2">
+              <label class="form-check-label" for="e2">Word 2</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e3">
+              <label class="form-check-label" for="e3">Word 3</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e4">
+              <label class="form-check-label" for="e4">Word 4</label>
+            </div>  
+            <br><br>
+          </div>
+          <div class="container" >
+            
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e5">
+              <label class="form-check-label" for="e5">Word 5</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e6">
+              <label class="form-check-label" for="e6">Word 6</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e7">
+              <label class="form-check-label" for="e7">Word 7</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e8">
+              <label class="form-check-label" for="e8">Word 8</label>
+            </div>  
+            <br><br>
+          </div>
+          <div class="container" >
+            
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e9">
+              <label class="form-check-label" for="e9">Word 9</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e10">
+              <label class="form-check-label" for="e10">Word 10</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e11">
+              <label class="form-check-label" for="e11">Word 11</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e12">
+              <label class="form-check-label" for="e12">Word 12</label>
+            </div>  
+            <br><br>
+          </div>
+          <div class="container" >
+            
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e13">
+              <label class="form-check-label" for="e13">Word 13</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e14">
+              <label class="form-check-label" for="e14">Word 14</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e15">
+              <label class="form-check-label" for="e15">Word 15</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e16">
+              <label class="form-check-label" for="e16">Word 16</label>
+            </div>  
+            <br><br>
+          </div>
+          <div class="container" >
+            
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e17">
+              <label class="form-check-label" for="e17">Word 17</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e18">
+              <label class="form-check-label" for="e18">Word 18</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e19">
+              <label class="form-check-label" for="e19">Word 19</label>
+            </div>       
+            <div class="form-group form-check-inline">
+              <input type="checkbox" class="form-check-input" id="e20">
+              <label class="form-check-label" for="e20">Word 20</label>
+            </div>  
+            <br>
+          </div>
+          <button id="submit" type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+        </div>
+        <div class="container-fluid" id="data" style="padding-left:20%">
+          <div class="container-fluid form-inline" id="c1"> 
+            <audio controls>
+              <source src="hard/1.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j1" style="margin-left:20px">
+            <button id="submits1" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint" style="display: none;">music that is played with someone who is singing or playing the main tune</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c2"> 
+            <audio controls>
+              <source src="hard/2.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j2" style="margin-left:20px">
+            <button id="submits2" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint1" style="display: none;">a person who studies human history and prehistory through the excavation <br> of sites and the analysis of artifacts and other physical remains.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint1').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c3"> 
+            <audio controls>
+              <source src="hard/3.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j3" style="margin-left:20px">
+            <button id="submits3" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint2" style="display: none;">prove or show (something, especially a claim or an artistic work) to be true or genuine.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint2').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c4"> 
+            <audio controls>
+              <source src="hard/4.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j4" style="margin-left:20px">
+            <button id="submits4" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint3" style="display: none;">the use of leaves, branches, paints, and clothes for hiding soldiers or military equipment <br> so that they cannot be seen against the area around them</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint3').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c5"> 
+            <audio controls>
+              <source src="hard/5.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j5" style="margin-left:20px">
+            <button id="submits5" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint4" style="display: none;">the outside edge of an area or object that is round or curved, or the length of this edge</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint4').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c6"> 
+            <audio controls>
+              <source src="hard/6.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j6" style="margin-left:20px">
+            <button id="submits6" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint5" style="display: none;">an agreement in an argument in which the people involved reduce their demands or change their opinion in order to agree</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint5').style.display='block'";>click me</button>
+          </div>
+          </div>
+          
+          <div class="container-fluid form-inline" id="c7"> 
+            <audio controls>
+              <source src="hard/7.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j7" style="margin-left:20px">
+            <button id="submits7" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hin6t" style="display: none;">the action of writing, receiving, and reading letters, especially between two people</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint6').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c8"> 
+            <audio controls>
+              <source src="hard/8.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j8" style="margin-left:20px">
+            <button id="submits8" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint7" style="display: none;">a statement that represents something as better or worse than it really is.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint7').style.display='block'";>click me</button>
+          </div>
+          </div>
+          
+          <div class="container-fluid form-inline" id="c9"> 
+            <audio controls>
+              <source src="hard/9.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j9" style="margin-left:20px">
+            <button id="submits9" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint8" style="display: none;">a square of cotton or other finely woven material, typically carried in one's pocket and intended for blowing or wiping one's nose.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint8').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c10"> 
+            <audio controls>
+              <source src="hard/10.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j10" style="margin-left:20px">
+            <button id="submits10" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint9" style="display: none;">shockingly bad or excessive / very bold, unusual, and startling.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint9').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c11"> 
+            <audio controls>
+              <source src="hard/11.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j11" style="margin-left:20px">
+            <button id="submits11" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint10" style="display: none;">doing something despite difficulty or delay in achieving success.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint10').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c12"> 
+            <audio controls>
+              <source src="hard/12.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j12" style="margin-left:20px">
+            <button id="submits12" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint11" style="display: none;">the representation of an abstract quality in human form.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint11').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c13"> 
+            <audio controls>
+              <source src="hard/13.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j13" style="margin-left:20px">
+            <button id="submits13" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint12" style="display: none;">a fact or situation that is observed to exist or happen, especially one whose cause or explanation is in question.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint13').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c14"> 
+            <audio controls>
+              <source src="hard/14.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j14" style="margin-left:20px">
+            <button id="submits14" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint13" style="display: none;">a person who seeks to promote the welfare of others, especially by the donation of money to good causes.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint13').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c15"> 
+            <audio controls>
+              <source src="hard/15.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j15" style="margin-left:20px">
+            <button id="submits15" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint14" style="display: none;">a person who held a job or office before the current holder.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint14').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c16"> 
+            <audio controls>
+              <source src="hard/16.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j16" style="margin-left:20px">
+            <button id="submits16" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint15" style="display: none;">a medical practitioner specializing in the diagnosis and treatment of mental illness.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint15').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c17"> 
+            <audio controls>
+              <source src="hard/17.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j17" style="margin-left:20px">
+            <button id="submits17" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint16" style="display: none;">a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint16').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c18"> 
+            <audio controls>
+              <source src="hard/18.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j18" style="margin-left:20px">
+            <button id="submits18" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint17" style="display: none;">shock or horrify (someone) by a real or imagined violation of propriety or morality.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint17').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c19"> 
+            <audio controls>
+              <source src="hard/19.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j19" style="margin-left:20px">
+            <button id="submits19" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint18" style="display: none;">an animal that feeds on carrion, dead plant material, or refuse.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint18').style.display='block'";>click me</button>
+          </div>
+          </div>
+
+          <div class="container-fluid form-inline" id="c20"> 
+            <audio controls>
+              <source src="hard/20.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" placeholder="guess the spelling"class="form-control" id="j20" style="margin-left:20px">
+            <button id="submits20" style="margin-left:20px"type="button" class="btn btn-primary" style="margin-left:auto">Submit</button>
+            <div class="btnn">
+              <p class="text">Hint</p>
+              <p class="demo" id="hint19" style="display: none;">a second-year university or high-school student.</p>
+              <button class="hint" type="button" onclick="document.getElementById('hint19').style.display='block'";>click me</button>
+          </div>
+          </div>
+      </div>
+
+      <div class="col-sm-3" >
+        <h4>POINT</h4>
+        <ul class="list-group list-group-flush">
+        </ul>
+      </div>
+    </div>
+    <div class="footer">
+
+    </div>
+<script src="hard.js"></script>
+</body>
+</html>
